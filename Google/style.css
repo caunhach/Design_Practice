@@ -1,0 +1,17 @@
+<!--The width and height properties (and min/max properties) includes content, padding and border-->
+
+* {
+	box-sizing: border-box;
+}
+
+<!-- If "Roboto" is not available, the browser will fall back to using any generic sans-serif font that is available on the user's device.-->
+
+body {
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: right;
+}
